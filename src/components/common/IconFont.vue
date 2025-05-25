@@ -25,7 +25,7 @@ const props = defineProps({
   }
 })
 
-// 创建SVG图标组件 - 关键修复：props.name 改为 props.type
+// 创建SVG图标组件
 const component = computed(() => {
   return {
     render() {
@@ -34,7 +34,7 @@ const component = computed(() => {
         class: 'icon-font',
       }, [
         h('use', {
-          'xlink:href': `#${props.type}`  // 修改这里，使用props.type而不是props.name
+          'xlink:href': `#${props.type}`
         })
       ])
     }
