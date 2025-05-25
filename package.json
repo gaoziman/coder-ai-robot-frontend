@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons-vue": "^7.0.1",
-    "ant-design-vue": "^4.2.6",
+    "@antv/g6": "^5.0.45",
+    "@vicons/ionicons5": "^0.13.0",
+    "@vueuse/core": "^13.1.0",
+    "@vueuse/motion": "^3.0.3",
+    "animate.css": "^4.1.1",
     "axios": "^1.8.3",
     "dayjs": "^1.11.13",
     "echarts": "^5.6.0",
@@ -23,6 +26,7 @@
     "@types/node": "^22.13.10",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "naive-ui": "^2.41.0",
     "typescript": "^5.8.2",
     "vite": "^6.2.1",
     "vite-plugin-vue-devtools": "^7.7.2"

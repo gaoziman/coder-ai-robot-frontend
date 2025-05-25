@@ -11,7 +11,10 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3003,
-    open: true,
+    port: 3006,
+    host: '0.0.0.0',
+    proxy: {
+      '/api': process.env.VITE_API_URL || 'http://localhost:18889',
+    }
   },
 });
