@@ -4,6 +4,12 @@
       <h1 class="animated-title">Naive UI 主题覆盖测试</h1>
     </transition>
 
+    <div>
+      <h1 class="text-3xl font-bold bg-green-500">
+        Tailwindcss 样式测试
+      </h1>
+    </div>
+
     <transition name="slide-up" appear>
       <n-button @click="showInfoMessage" class="animated-button">点我显示消息提示</n-button>
     </transition>
